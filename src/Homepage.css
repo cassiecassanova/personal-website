@@ -1,0 +1,33 @@
+body {
+    background: linear-gradient(#43CEA2,#185A9D) no-repeat center center fixed;
+}
+@font-face {
+    font-family: 'MARDE SAUVE Personal Use';
+    font-style: normal;
+    font-weight: normal;
+    src: local('MARDE SAUVE Personal Use'), url('MardeSauvePersonalUse-ywaPd.woff') format('woff');
+    }
+
+.Homepage-HelloWorld {
+    font-family: 'MARDE SAUVE Personal Use';
+    position: absolute;
+    top: 50%;
+    overflow: 50%;
+    left: 50%;
+    text-align: center;
+}
+
+.Homepage-Greeting {
+    font-family: 'MARDE SAUVE Personal Use';
+    text-align: center;
+}
+
+.profile-image {
+    border-radius: 100%;
+    border: 5px solid black;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    height: 250px;
+    width:250px;
+  }
